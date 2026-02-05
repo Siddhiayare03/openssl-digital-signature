@@ -20,3 +20,11 @@ To generate and verify a digital signature using OpenSSL and demonstrate data in
 
 ## Conclusion
 Digital signatures ensure integrity, authentication, and non-repudiation.
+
+## Commands Used
+
+### Generate Private Key
+```bash
+openssl genrsa -out private_key.pem 2048
+
+
